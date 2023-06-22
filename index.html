@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel layout</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header section strat -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="header-container">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <a href="#" class="logo" alt="logo" title="logo"><i class="fas fa-paper-plane"></i>travel</a>
+                <nav class="navbar">
+                    <ul class="menus">
+                        <li class="nav-item"><a href="#" class=" nav-link active">home</a></li>
+                        <li class="nav-item"><a href="#aboutus" class=" nav-link">about</a></li>
+                        <li class="nav-item"><a href="#destination" class=" nav-link">destination</a></li>
+                        <li class="nav-item"><a href="#services" class=" nav-link">services</a></li>
+                        <li class="nav-item"><a href="#gallery" class=" nav-link">gallery</a></li>
+                        <li class="nav-item"><a href="#blogs" class=" nav-link">blogs</a></li>
+                    </ul>
+                </nav>
+                <div class="search-toggle">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="search-popup">
+                    <button class="close-search"><i class="fas fa-times"></i></button>
+                    <form method="post" action="#">
+                        <div class="form-group">
+                            <input type="search" class="form-control" name="search-field" placeholder="Search Here"
+                                required="">
+                            <button type="submit" class="search-btn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="content">
+                <h4>follow us</h4>
+                <h3>to the unknown</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium nisi aut fugiat iste quaerat
+                    temporibus corporis commodi ea laboriosam nostrum.</p>
+                <a href="#book-form" class="booknow-btn">book now</a>
+            </div>
+        </div>
+    </section>
+    <!--home section end -->
+
+    <!-- booking form -->
+    <section class="book-form" id="book-form">
+        <div class="container">
+            <div class="row">
+                <form action="" method="">
+                    <div class="inputbox">
+                        <label>where to?</label>
+                        <input type="text" placeholder="Place name" value="" required>
+                    </div>
+                    <div class="inputbox">
+                        <label>when?</label>
+                        <input type="date" required>
+                    </div>
+                    <div class="inputbox">
+                        <label>how many?</label>
+                        <input type="number" placeholder="Number of traveler" required>
+                    </div>
+                    <button type="submit" class="submit-btn">submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="aboutus">
+        <div class="container">
+            <div class="row aboutparent">
+                <div class="col video-container">
+                    <video src="images/about-vid-1.mp4" autoplay preload class="video"></video>
+                    <div class="video-btn">
+                        <div class="play-btn"><i class="fa fa-play"></i></div>
+                        <div class="pause-btn"><i class="fa fa-pause"></i></div>
+                    </div>
+                    <div class="controls">
+                        <div class="control-btn active" data-src="images/about-vid-1.mp4"></div>
+                        <div class="control-btn" data-src="images/about-vid-2.mp4"></div>
+                        <div class="control-btn" data-src="images/about-vid-3.mp4"></div>
+                    </div>
+                </div>
+                <div class="col aboutcontent">
+                    <div class="about-content">
+                        <h2>Why Choose Us?</h2>
+                        <h3>Nature's Majesty Awaits You</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor inventore eveniet, cumque
+                            error
+                            cum harum
+                            nisi dicta architecto dolores ducimus.</p>
+                        <a href="#" class="readmore-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- destination section start -->
+    <section class="destination" id="destination">
+        <div class="container">
+            <div class="heading">
+                <h2>our destination</h2>
+                <h3>make your destination</h3>
+            </div>
+            <div class="row box-container">
+                <div class="col box">
+                    <div class="box-inner">
+                        <div class="image">
+                            <img src="images/des-1.jpg" alt="des-1" title="des-1">
+                        </div>
+                        <div class="box-inner-content">
+                            <h3>tours & travel</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="box-inner">
+                        <div class="image">
+                            <img src="images/des-2.jpg" alt="des-2" title="des-2">
+                        </div>
+                        <div class="box-inner-content">
+                            <h3>tours & travel</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="box-inner">
+                        <div class="image">
+                            <img src="images/des-3.jpg" alt="des-3" title="des-3">
+                        </div>
+                        <div class="box-inner-content">
+                            <h3>tours & travel</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="box-inner">
+                        <div class="image">
+                            <img src="images/des-4.jpg" alt="des-4" title="des-4">
+                        </div>
+                        <div class="box-inner-content">
+                            <h3>tours & travel</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="box-inner">
+                        <div class="image">
+                            <img src="images/des-5.jpg" alt="des-5" title="des-5">
+                        </div>
+                        <div class="box-inner-content">
+                            <h3>tours & travel</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="box-inner">
+                        <div class="image">
+                            <img src="images/des-6.jpg" alt="des-6" title="des-6">
+                        </div>
+                        <div class="box-inner-content">
+                            <h3>tours & travel</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="box-inner">
+                        <div class="image">
+                            <img src="images/des-7.jpg" alt="des-7" title="des-7">
+                        </div>
+                        <div class="box-inner-content">
+                            <h3>tours & travel</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="box-inner">
+                        <div class="image">
+                            <img src="images/des-8.jpg" alt="des-8" title="des-8">
+                        </div>
+                        <div class="box-inner-content">
+                            <h3>tours & travel</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <a href="#">read more <i class="fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- destination section end -->
+
+    <!-- service section start -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="heading">
+                <h2>our services</h2>
+                <h3>countless experiences</h3>
+            </div>
+            <div class="row box-container">
+                <div class="col box">
+                    <div class="service-boxinner">
+                        <i class="fas fa-globe"></i>
+                        <h3>worldwide</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore</p>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="service-boxinner">
+                        <i class="fas fa-hiking"></i>
+                        <h3>adventures</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore</p>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="service-boxinner">
+                        <i class="fas fa-utensils"></i>
+                        <h3>food & drinks</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore</p>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="service-boxinner">
+                        <i class="fas fa-hotel"></i>
+                        <h3>affordable hotels</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore</p>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="service-boxinner">
+                        <i class="fas fa-wallet"></i>
+                        <h3>affordable price</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore</p>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="service-boxinner">
+                        <i class="fas fa-headset"></i>
+                        <h3>24/7 support</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section end -->
+
+    <!-- gallery section start -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="heading">
+                <h2>our gallery</h2>
+                <h3>we are travel memories</h3>
+            </div>
+            <div class="row box-containers">
+                <div class="col box1">
+                    <div class="gallery-boxinner">
+                        <a href="#"><img src="images/gallery-img-1.jpg" alt="img1" title="img1"></a>
+                        <h6>travel spot</h6>
+                        <h4>iceland</h4>
+                    </div>
+                </div>
+                <div class="col box1">
+                    <div class="gallery-boxinner">
+                        <a href="#"><img src="images/gallery-img-2.jpg" alt="img2" title="img2"></a>
+                        <h6>travel spot</h6>
+                        <h4>greenland</h4>
+                    </div>
+                </div>
+                <div class="col box1">
+                    <div class="gallery-boxinner">
+                        <a href="#"><img src="images/gallery-img-3.jpg" alt="img3" title="img3"></a>
+                        <h6>travel spot</h6>
+                        <h4>alaska</h4>
+                    </div>
+                </div>
+                <div class="col box1">
+                    <div class="gallery-boxinner">
+                        <a href="#"><img src="images/gallery-img-4.jpg" alt="img4" title="img4"></a>
+                        <h6>travel spot</h6>
+                        <h4>thailand</h4>
+                    </div>
+                </div>
+                <div class="col box1">
+                    <div class="gallery-boxinner">
+                        <a href="#"><img src="images/gallery-img-5.jpg" alt="img5" title="img5"></a>
+                        <h6>travel spot</h6>
+                        <h4>brazil</h4>
+                    </div>
+                </div>
+                <div class="col box1">
+                    <div class="gallery-boxinner">
+                        <a href="#"><img src="images/gallery-img-6.jpg" alt="img6" title="img6"></a>
+                        <h6>travel spot</h6>
+                        <h4>maldive</h4>
+                    </div>
+                </div>
+                <div class="col box1">
+                    <div class="gallery-boxinner">
+                        <a href="#"><img src="images/gallery-img-7.jpg" alt="img7" title="img7"></a>
+                        <h6>travel spot</h6>
+                        <h4>iceland</h4>
+                    </div>
+                </div>
+                <div class="col box1">
+                    <div class="gallery-boxinner">
+                        <a href="#"><img src="images/gallery-img-8.jpg" alt="img8" title="img8"></a>
+                        <h6>travel spot</h6>
+                        <h4>alska</h4>
+                    </div>
+                </div>
+                <div class="col box1">
+                    <div class="gallery-boxinner">
+                        <a href="#"><img src="images/gallery-img-9.jpg" alt="img9" title="img9"></a>
+                        <h6>travel spot</h6>
+                        <h4>maldive</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section end -->
+
+    <!-- blog section star -->
+    <section class="blogs" id="blogs">
+        <div class="container">
+            <div class="heading">
+                <h2>blogs & posts</h2>
+                <h3>we untold stories</h3>
+            </div>
+            <div class="row box-container">
+                <div class="col box2">
+                    <div class="blogs-inner">
+                        <div class="image">
+                            <a href="#"><img src="images/blog-1.jpg" alt=blog-img1" title="blog-img1"></a>
+                        </div>
+                        <div class="innertext">
+                            <a href="#" class="link">life is a journey, not a destination.</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor inventore eveniet,</p>
+                            <div class="icons">
+                                <a href="#" class="icon1"><i class="fas fa-clock"></i>21st may, 2023</a>
+                                <a href="#" class="icon2"><i class="fas fa-user"></i>by admin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col box2">
+                    <div class="blogs-inner">
+                        <div class="image">
+                            <a href="#"><img src="images/blog-2.jpg" alt=blog-img2" title="blog-img2"></a>
+                        </div>
+                        <div class="innertext">
+                            <a href="#" class="link">life is a journey, not a destination.</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor inventore eveniet,</p>
+                            <div class="icons">
+                                <a href="#" class="icon1"><i class="fas fa-clock"></i>21st may, 2023</a>
+                                <a href="#" class="icon2"><i class="fas fa-user"></i>by admin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col box2">
+                    <div class="blogs-inner">
+                        <div class="image">
+                            <a href="#"><img src="images/blog-3.jpg" alt=blog-img3" title="blog-img3"></a>
+                        </div>
+                        <div class="innertext">
+                            <a href="#" class="link">life is a journey, not a destination.</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor inventore eveniet,</p>
+                            <div class="icons">
+                                <a href="#" class="icon1"><i class="fas fa-clock"></i>21st may, 2023</a>
+                                <a href="#" class="icon2"><i class="fas fa-user"></i>by admin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section end -->
+    <!-- footer section start -->
+    <Section class="footer" id="footer">
+        <div class="container">
+            <div class="row box-container">
+                <div class="col box3">
+                    <div class="footer-inner">
+                        <a href="#" class="logo" alt="logo" title="logo"><i class="fas fa-paper-plane"></i>travel</a>
+                        <div class="innertextcontent">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, optio.</p>
+                            <ul class="share">
+                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f fb"></i></a></li>
+                                <li><a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box3">
+                    <div class="footer-inner">
+                        <h3>quick links</h3>
+                        <div class="innertextcontent">
+                            <a href="#home" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                            <a href="#about" class="links"><i class="fas fa-arrow-right"></i>about</a>
+                            <a href="#destinations" class="links"><i class="fas fa-arrow-right"></i>destinations</a>
+                            <a href="#services" class="links"><i class="fas fa-arrow-right"></i>services</a>
+                            <a href="#gallery" class="links"><i class="fas fa-arrow-right"></i>gallery</a>
+                            <a href="#blog" class="links"><i class="fas fa-arrow-right"></i>blog</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box3">
+                    <div class="footer-inner">
+                        <h3>contact info</h3>
+                        <div class="innertextcontent">
+                            <a href="#">
+                                <p><i class="fas fa-map"></i>Tirunelveli, Tamilnadu.</p>
+                            </a>
+                            <a href="#">
+                                <p><i class="fas fa-phone"></i>444-456-7867</p>
+                            </a>
+                            <a href="#">
+                                <p><i class="fas fa-envelope"></i>janaki2407@gmail.com</p>
+                            </a>
+                            <a href="#">
+                                <p><i class="fas fa-clock"></i>7:00am - 10:00pm</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box3">
+                    <div class="footer-inner">
+                        <h3>newsletter</h3>
+                        <div class="innertextcontent">
+                            <p>Subscribe for latest updates</p>
+                            <form action="post" class="footer-form">
+                                <input type="email" name="" placeholder="Enter your email" class="email" id="" required>
+                                <button type="submit" class="subscribe-btn" id="#home">subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <p class="credit"> created by <a href="#" class="copyright-link"><span class="na">v.b.Janagiraman</span></a> | all
+        rights
+        reserved!
+    </p>
+    <!-- footer section end -->
+
+    
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

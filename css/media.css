@@ -1,0 +1,387 @@
+@media (min-width:992px) and (max-width:1199px) {
+
+
+    form {
+        text-align: left;
+    }
+
+    .book-form {
+        margin: 0 auto;
+        padding: 50px 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    section {
+        padding: 80px 0 0;
+    }
+
+    #menu-btn {
+        display: inline-block;
+        font-size: 20px;
+        padding: 8px 0 0;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #222;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .navbar li {
+        margin: 0 auto;
+    }
+
+    .header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        padding: 30px 0;
+    }
+
+    .header .navbar.active li {
+        display: block;
+        padding: 0 0 25px;
+        text-align: center;
+    }
+
+    a {
+        display: block;
+        font-size: 16px;
+
+    }
+
+    .home {
+        padding: 100px 0;
+    }
+
+    .content h4 {
+        font-size: 45px;
+    }
+
+    .content h3 {
+        font-size: 50px;
+        margin: 18px auto 0;
+    }
+
+    .content p {
+        max-width: 85%;
+    }
+
+    form {
+        text-align: left;
+    }
+
+    .submit-btn {
+        margin: 15px auto 0;
+    }
+
+
+    .book-form {
+        margin: 0 auto;
+        padding: 50px 15px;
+    }
+
+    .video-container {
+        width: 50%;
+    }
+
+    .about-content {
+        padding: 0;
+    }
+
+    .video-container,
+    .aboutcontent,
+    .destination .box,
+    .services .box,
+    .gallery .box-containers .box1,
+    .blogs .box-container .box2,
+    .box3 {
+        flex-basis: 50%;
+    }
+
+    .inputbox {
+        flex-basis: 33.33%;
+    }
+
+    .inputbox {
+        padding: 0 15px 30px 0;
+    }
+
+    .credit {
+        font-size: 16px;
+        padding: 20px 15px;
+    }
+
+    .credit a {
+        font-size: 16px;
+        display: inline-block;
+    }
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    section {
+        padding: 60px 0 0;
+    }
+
+    .search-toggle {
+        font-size: 14px;
+        height: 35px;
+        width: 35px;
+    }
+
+    #menu-btn {
+        display: inline-block;
+        font-size: 20px;
+        padding: 8px 0 0;
+    }
+
+    .search-popup .close-search {
+        height: 40px;
+        width: 40px;
+        font-size: 15px;
+    }
+
+    .search-popup form {
+        margin: -60px auto 0;
+
+    }
+
+    .search-popup {
+        top: 83px;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #222;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .navbar li {
+        margin: 0 auto;
+    }
+
+    .header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        padding: 30px 0;
+    }
+
+    .header .navbar.active li {
+        display: block;
+        padding: 0 0 25px;
+        text-align: center;
+    }
+
+    .navbar li a {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        font-size: 14px;
+
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .searchbox {
+        font-size: 12px;
+    }
+
+    .searchform {
+        padding: 40px 0 0;
+    }
+
+    .logo {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .home {
+        padding: 80px 0;
+    }
+
+    .content h4 {
+        font-size: 32px;
+    }
+
+    .content h3 {
+        font-size: 38px;
+        margin: 16px auto 0;
+    }
+
+    .content p {
+        max-width: 100%;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 14px;
+    }
+
+    .inputbox {
+        margin: 0 auto 30px;
+    }
+
+    .submit-btn {
+        margin: 15px 0 0;
+    }
+
+    .book-form {
+        margin: 0 auto;
+        padding: 50px 15px;
+    }
+
+    .heading h3 {
+        font-size: 22px;
+        margin-top: 8px;
+    }
+
+
+    .heading h2 {
+        font-size: 18px;
+    }
+
+    .heading {
+        padding: 0 0 40px;
+    }
+
+    .about-content {
+        padding: 40px 0 0;
+        text-align: center;
+    }
+
+    .about-content h2 {
+        font-size: 18px;
+    }
+
+    .about-content h3 {
+        font-size: 22px;
+        margin-top: 15px
+    }
+
+    .about-content p {
+        margin: 15px 0 30px;
+    }
+
+    .video-container,
+    .aboutcontent,
+    .inputbox,
+    .destination .box,
+    .services .box,
+    .gallery .box-containers .box1,
+    .blogs .box-container .box2,
+    .box3 {
+        flex-basis: 100%;
+    }
+
+    .service-boxinner h3,
+    .box-inner-content h3 {
+        font-size: 18px;
+    }
+
+    .box-inner-content a {
+        font-size: 16px;
+    }
+
+    .service-boxinner p,
+    .about-content p,
+    .box-inner-content p,
+    .innertext p,
+    .icons a,
+    .links,
+    .box3 p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .destination .box-container,
+    .services .box-container,
+    .box-containers,
+    .blogs .box-container {
+        row-gap: 20px;
+    }
+
+    .gallery-boxinner h6 {
+        font-size: 14px;
+        margin: 20px 0 5px;
+    }
+
+    .gallery-boxinner h4 {
+        font-size: 18px;
+    }
+
+    .innertext {
+        padding: 20px;
+    }
+
+    .innertext .link {
+        font-size: 16px;
+    }
+
+    .footer-inner .logo {
+        text-align: left;
+    }
+
+
+    .box3 p {
+        padding: 0 0 15PX;
+        width: 100%;
+    }
+
+    .share {
+        padding: 0 0 10px;
+    }
+
+    .social-icon {
+        display: inline-block;
+    }
+
+    .share .social-icon i {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        margin-right: 6px;
+        padding: 6px 7px;
+    }
+
+    .share .social-icon .fb {
+        padding: 6px 8px;
+    }
+
+    .box3 h3 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .links {
+        padding: 5px 0 10px;
+    }
+
+    .credit {
+        font-size: 12px;
+        padding: 20px 15px;
+    }
+
+    .credit a {
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    .booknow-btn,
+    .subscribe-btn,
+    .readmore-btn,
+    .submit-btn {
+        padding: 14px 30px;
+        font-size: 14px;
+        border-radius: 3px;
+
+    }
+}
